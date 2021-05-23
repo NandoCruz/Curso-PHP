@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Formulário em PHP</title>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <style>
+        h1{
+            color: #3c5ab4;
+            text-shadow: 1px 1px 1px black;
+            text-align: center;
+        }
+        .botao{
+            margin: 10px;
+        }
+        .op{
+            margin: 15px auto 10px auto;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>Selecione o Estado</h1>
+    <form method="get" action="03-regiao.php">
+        Estado: <label for="cEst"></label>
+        <select name="tEst" id="cEst">
+            <option value="1">Acre</option>
+            <option value="14">Alagoas</option>
+            <option value="2">Amapá</option>
+            <option value="3">Amazônas</option>
+            <option value="16">Bahia</option>
+            <option value="10">Ceará</option>
+            <option value="20">Distrito Federal</option>
+            <option value="22">Espirito Santo</option>
+            <option value="18">Goiás</option>
+            <option value="8">Maranhão</option>
+            <option value="17">Mato Grosso</option>
+            <option value="19">Mato Gosso do Sul</option>
+            <option value="21">Minas Gerais</option>
+            <option value="4">Pará</option>
+            <option value="12">Paraiba</option>
+            <option value="25">Paraná</option>
+            <option value="13">Pernanbuco</option>
+            <option value="9">Piaui</option>
+            <option value="23">Rio de Janeiro</option>
+            <option value="11">Rio Grande do Norte</option>
+            <option value="27">Rio Grande do Sul</option>
+            <option value="5">Rondonia</option>
+            <option value="6">Roraima</option>
+            <option value="26">Santa Catarina</option>
+            <option value="24">São Paulo</option>
+            <option value="15">Sergipe</option>
+            <option value="7">Tocantins</option>
+        </select>
+        <input type="submit" class="botao" value="Verificar">
+    </form>
+</div>
+</body>
+</html>
